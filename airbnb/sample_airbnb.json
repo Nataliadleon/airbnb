@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Cozy Apartment in Downtown",
+    "description": "A beautiful apartment in the heart of the city, perfect for travelers",
+    "property_type": "Apartment",
+    "price_per_night": 89,
+    "amenities": ["WiFi", "Pets allowed", "Air conditioning", "Kitchen"],
+    "house_rules": "No smoking, pets welcome",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "rating": 4.8
+  },
+  {
+    "id": 2,
+    "name": "Luxury Villa with Pool",
+    "description": "Spacious villa with stunning views and private pool",
+    "property_type": "Villa",
+    "price_per_night": 250,
+    "amenities": ["WiFi", "Swimming Pool", "Gym", "Hot Tub"],
+    "house_rules": "No pets allowed, quiet after 10 PM",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "rating": 4.9
+  },
+  {
+    "id": 3,
+    "name": "Pet-Friendly Studio",
+    "description": "Small but comfortable studio, mascotas permitidas",
+    "property_type": "Studio",
+    "price_per_night": 65,
+    "amenities": ["WiFi", "Pets allowed", "Heating"],
+    "house_rules": "Mascotas bienvenidas, reasonable noise level",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "rating": 4.5
+  },
+  {
+    "id": 4,
+    "name": "Beachfront House",
+    "description": "Beautiful house directly on the beach with ocean views",
+    "property_type": "House",
+    "price_per_night": 180,
+    "amenities": ["WiFi", "Beach Access", "Parking", "Fire Pit"],
+    "house_rules": "No pets",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "rating": 4.7
+  },
+  {
+    "id": 5,
+    "name": "Downtown Loft",
+    "description": "Modern loft in trendy neighborhood, dogs and cats are allowed",
+    "property_type": "Loft",
+    "price_per_night": 120,
+    "amenities": ["WiFi", "Pets allowed", "Balcony", "Modern Kitchen"],
+    "house_rules": "Pets allowed with approval, no loud music",
+    "bedrooms": 2,
+    "bathrooms": 1.5,
+    "rating": 4.6
+  }
+]

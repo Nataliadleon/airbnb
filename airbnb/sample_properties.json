@@ -1,0 +1,72 @@
+[
+  {
+    "property_id": 2001,
+    "title": "Luxury Beach Villa",
+    "summary": "Stunning beachfront property with private pool and garden",
+    "type": "Villa",
+    "nightly_rate": 450,
+    "max_guests": 8,
+    "rooms": 5,
+    "bathrooms": 3,
+    "amenities": ["Pool", "WiFi", "AC", "Gym", "Pets welcome"],
+    "rules": "Pets allowed with deposit, no smoking inside",
+    "review_score": 4.9,
+    "location": "Maldivas"
+  },
+  {
+    "property_id": 2002,
+    "title": "Cozy Mountain Cabin",
+    "summary": "Perfect retreat in the mountains with fireplace and views",
+    "type": "Cabin",
+    "nightly_rate": 120,
+    "max_guests": 4,
+    "rooms": 2,
+    "bathrooms": 1,
+    "amenities": ["WiFi", "Fireplace", "Heating", "Kitchen"],
+    "rules": "No pets, quiet time after 9 PM",
+    "review_score": 4.6,
+    "location": "Colorado"
+  },
+  {
+    "property_id": 2003,
+    "title": "Urban Loft",
+    "summary": "Modern loft in city center with rooftop access",
+    "type": "Loft",
+    "nightly_rate": 180,
+    "max_guests": 2,
+    "rooms": 1,
+    "bathrooms": 1,
+    "amenities": ["WiFi", "AC", "Rooftop", "Pets allowed"],
+    "rules": "Mascotas bienvenidas, permitido fumar solo en balcón",
+    "review_score": 4.7,
+    "location": "Nueva York"
+  },
+  {
+    "property_id": 2004,
+    "title": "Countryside Farm House",
+    "summary": "Spacious house with garden and farm animals",
+    "type": "House",
+    "nightly_rate": 95,
+    "max_guests": 6,
+    "rooms": 3,
+    "bathrooms": 2,
+    "amenities": ["WiFi", "Garden", "Kitchen", "Parking", "Pets allowed"],
+    "rules": "Pets welcome, children friendly",
+    "review_score": 4.5,
+    "location": "Toscana"
+  },
+  {
+    "property_id": 2005,
+    "title": "Downtown Studio",
+    "summary": "Compact but comfortable studio near public transport",
+    "type": "Studio",
+    "nightly_rate": 60,
+    "max_guests": 2,
+    "rooms": 1,
+    "bathrooms": 1,
+    "amenities": ["WiFi", "AC", "Laundry"],
+    "rules": "No pets, no parties",
+    "review_score": 4.3,
+    "location": "Barcelona"
+  }
+]

@@ -1,0 +1,139 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                   CARGAR ARCHIVOS JSON EXTERNOS                             ║
+║                                                                              ║
+║  La aplicación ahora soporta cargar CUALQUIER archivo JSON de tu sistema   ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+📋 PASOS PARA CARGAR UN ARCHIVO JSON:
+
+  1. Abre la aplicación
+  2. Haz clic en el botón "📁 Cargar JSON" (arriba a la izquierda)
+  3. Se abrirá un diálogo para seleccionar archivos
+  4. Navega a cualquier ubicación de tu disco
+  5. Selecciona un archivo .json
+  6. Haz clic en "Abrir"
+  7. ¡Los datos se mostrarán automáticamente!
+
+
+📁 ARCHIVOS DE EJEMPLO INCLUIDOS:
+
+  • sample_airbnb.json        - Dataset original de Airbnb
+  • sample_properties.json    - Dataset alternativo con estructura diferente
+
+
+✅ CREAR TU PROPIO ARCHIVO JSON:
+
+Para crear un archivo JSON con tus datos:
+
+  1. Abre un editor de texto (Notepad, VS Code, etc.)
+  2. Copia este ejemplo:
+
+     [
+       {
+         "id": 1,
+         "name": "Mi Propiedad",
+         "price_per_night": 100,
+         "bedrooms": 2,
+         "rating": 4.5
+       },
+       {
+         "id": 2,
+         "name": "Otra Propiedad",
+         "price_per_night": 150,
+         "bedrooms": 3,
+         "rating": 4.8
+       }
+     ]
+
+  3. Guarda el archivo con extensión .json
+     Ejemplo: mis_propiedades.json
+  
+  4. Cárgalo usando "📁 Cargar JSON"
+
+
+🎯 CAMPOS QUE LA APP DETECTA AUTOMÁTICAMENTE:
+
+  PRECIOS (cualquiera de estos nombres):
+    price_per_night, price, cost, nightly_rate, rate
+
+  DORMITORIOS (cualquiera de estos nombres):
+    bedrooms, rooms, bed_rooms, num_bedrooms
+
+  RATING (cualquiera de estos nombres):
+    rating, review_rating, score, stars, average_rating
+
+  TIPO DE PROPIEDAD:
+    property_type
+
+  BÚSQUEDA DE TEXTO:
+    name, description, title, summary
+
+  PET-FRIENDLY:
+    amenities, house_rules
+
+
+⚙️ DESPUÉS DE CARGAR:
+
+  🔍 Busca por nombre/descripción
+  🐾 Marca "Pet Friendly" para filtrar
+  💰 Ajusta rango de precios
+  🛏️ Filtra por dormitorios
+  ⭐ Selecciona rating mínimo
+  🏠 Elige tipo de propiedad
+  🔄 Limpia filtros con un clic
+
+
+⚠️ REQUISITOS DE FORMATO:
+
+  ✓ Debe ser JSON válido (no comentarios, no JSON5)
+  ✓ Debe ser un ARRAY [] o un OBJETO {}
+  ✓ Máximo 50 MB de tamaño
+  ✓ Preferiblemente UTF-8 encoding
+  ✓ Usa comillas dobles " (no comillas simples)
+
+
+📍 UBICACIONES RECOMENDADAS:
+
+  • C:\Users\TuNombre\Documents\       (Documentos)
+  • C:\Users\TuNombre\Downloads\       (Descargas)
+  • C:\Users\TuNombre\Desktop\         (Escritorio)
+  • Cualquier carpeta en tu disco
+
+
+🆘 SI ALGO NO FUNCIONA:
+
+  ❌ "El archivo no existe"
+     → Verifica que el archivo está en la ubicación seleccionada
+     → Asegúrate de que la ruta es correcta
+
+  ❌ "No se pudo cargar el archivo JSON"
+     → Abre el archivo en un editor de texto
+     → Verifica que es JSON válido (sin errores de sintaxis)
+     → Busca caracteres raros o encoding problemático
+     → Intenta validar en jsonlint.com
+
+  ❌ "El archivo es demasiado grande"
+     → Divide el JSON en múltiples archivos más pequeños
+     → Máximo recomendado: 10,000 registros
+
+
+🔄 CAMBIAR DE ARCHIVO:
+
+  → Haz clic en "📁 Cargar JSON" nuevamente
+  → Selecciona otro archivo
+  → Los datos anteriores se limpiarán automáticamente
+  → Los filtros se resetearán
+
+
+💡 CONSEJOS:
+
+  • Puedes cargar de descargas, documentos, etc.
+  • El app detecta automáticamente la estructura del JSON
+  • No necesitas agregar campos específicos
+  • Campos desconocidos se mostrarán como columnas extra
+  • El filtrado inteligente se adapta a tus datos
+
+
+═══════════════════════════════════════════════════════════════════════════════
+
+¡Listo! Ahora puedes cargar cualquier archivo JSON desde tu sistema. 🎉
